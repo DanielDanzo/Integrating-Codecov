@@ -1,0 +1,19 @@
+version: 2
+checks:
+  eslint:
+    enabled: true
+    target-branch: main
+  duplication:
+    enabled: true
+    target-branch: main
+  eslint:
+    enabled: true
+    ignore-patterns:
+      - node_modules/
+    files:
+      - "*.js"
+coverage:
+  coverageTool: jest
+  input:
+    format: lcov
+    path: coverage/lcov.info
