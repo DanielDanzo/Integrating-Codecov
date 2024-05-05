@@ -13,6 +13,6 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v4 
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_ORG_TOKEN }}
