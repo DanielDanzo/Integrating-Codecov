@@ -57,7 +57,7 @@ In your project folder create another folder called ".github". Inside that folde
 
 You can copy this code into your *.yml file
 
-```yml
+```yaml
 name: Workflow for Codecov example-javascript
 on: [push, pull_request]
 jobs:
